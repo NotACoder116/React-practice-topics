@@ -1,8 +1,14 @@
 import './App.css';
-import ParentDebounce from './components/learnCustomHook/learnDebounce/ParentDebounce';
-import ParentOnScreen from './components/learnCustomHook/learnOnScreen/ParentOnScreen';
-import { ParentResponsive } from './components/learnCustomHook/learnResponsive/ParentResponsive';
-import LearnParentAsync from './components/learnCustomHook/learnUseAsync/LearnParentAsync';
+// import { MainContext } from './components/learnContext/MainContext';
+// import ParentDebounce from './components/learnCustomHook/learnDebounce/ParentDebounce';
+// import ParentOnScreen from './components/learnCustomHook/learnOnScreen/ParentOnScreen';
+// import { ParentResponsive } from './components/learnCustomHook/learnResponsive/ParentResponsive';
+// import LearnParentAsync from './components/learnCustomHook/learnUseAsync/LearnParentAsync';
+// import { ErrorBoundary } from './components/learnErrorBoundaries/ErrorBoundary';
+import { ParentHoc } from './components/learnHOC/ParentHoc';
+// import ParentLifeCycle from './components/learnLifeCycles/ParentLifeCycle';
+// import Counter from './components/learnRedux/Counter';
+// import { ParentForwardRef } from './components/learnRef/ParentForwardRef';
 // import ParentUseIdle from './components/learnIdle/ParentUseIdle';
 // import { ParentCompHook } from './components/learnCustomHook/ParentCompHook';
 // import ParentComp from './components/learnMemoization/ParentComp';
@@ -47,7 +53,23 @@ function App() {
       --------------------------- */}
       {/* <ParentResponsive />
       --------------------------- */}
-      <ParentOnScreen />
+      {/* <ParentOnScreen />
+      --------------------------- */}
+      {/* <ErrorBoundary>
+        <ParentLifeCycle />
+      </ErrorBoundary> */}
+      {/* ----------------------------- */}
+      {/* <MainContext /> */}
+      {/* <ParentForwardRef/> */}
+
+
+
+      {/* REDUX */}
+       {/* <Counter/> */}
+
+
+       <ParentHoc />
+
     </div>
   );
 }
