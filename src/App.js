@@ -1,11 +1,12 @@
 import './App.css';
+import ParentCategory from './components/HOCInFunctions/ParentCategory';
 // import { MainContext } from './components/learnContext/MainContext';
 // import ParentDebounce from './components/learnCustomHook/learnDebounce/ParentDebounce';
 // import ParentOnScreen from './components/learnCustomHook/learnOnScreen/ParentOnScreen';
 // import { ParentResponsive } from './components/learnCustomHook/learnResponsive/ParentResponsive';
 // import LearnParentAsync from './components/learnCustomHook/learnUseAsync/LearnParentAsync';
 // import { ErrorBoundary } from './components/learnErrorBoundaries/ErrorBoundary';
-import { ParentHoc } from './components/learnHOC/ParentHoc';
+// import { ParentHoc } from './components/learnHOC/ParentHoc';
 // import ParentLifeCycle from './components/learnLifeCycles/ParentLifeCycle';
 // import Counter from './components/learnRedux/Counter';
 // import { ParentForwardRef } from './components/learnRef/ParentForwardRef';
@@ -62,13 +63,15 @@ function App() {
       {/* <MainContext /> */}
       {/* <ParentForwardRef/> */}
 
+      <ParentCategory name="Yadwinder Singh"/>
+
 
 
       {/* REDUX */}
        {/* <Counter/> */}
 
 
-       <ParentHoc />
+       {/* <ParentHoc /> */}
 
     </div>
   );
