@@ -1,5 +1,6 @@
 import './App.css';
 import LearnUseDeferred from './components/learnUseDeferred/LearnUseDeferred';
+import LearnUseLayoutEffect from './components/learnUseLayoutEffect/LearnUseLayoutEffect';
 // import ParentCategory from './components/HOCInFunctions/ParentCategory';
 // import { MainContext } from './components/learnContext/MainContext';
 // import ParentDebounce from './components/learnCustomHook/learnDebounce/ParentDebounce';
@@ -79,8 +80,9 @@ function App() {
 
        {/* <LearnTransitionHook/> */}
 
+       {/* <LearnUseDeferred /> */}
 
-       <LearnUseDeferred />
+       <LearnUseLayoutEffect />
 
     </div>
   );
