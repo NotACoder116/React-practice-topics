@@ -1,5 +1,5 @@
 import './App.css';
-import ParentCategory from './components/HOCInFunctions/ParentCategory';
+// import ParentCategory from './components/HOCInFunctions/ParentCategory';
 // import { MainContext } from './components/learnContext/MainContext';
 // import ParentDebounce from './components/learnCustomHook/learnDebounce/ParentDebounce';
 // import ParentOnScreen from './components/learnCustomHook/learnOnScreen/ParentOnScreen';
@@ -10,6 +10,7 @@ import ParentCategory from './components/HOCInFunctions/ParentCategory';
 // import ParentLifeCycle from './components/learnLifeCycles/ParentLifeCycle';
 // import Counter from './components/learnRedux/Counter';
 // import { ParentForwardRef } from './components/learnRef/ParentForwardRef';
+import LearnTransitionHook from './components/learnTransition/LearnTransitionHook';
 // import ParentUseIdle from './components/learnIdle/ParentUseIdle';
 // import { ParentCompHook } from './components/learnCustomHook/ParentCompHook';
 // import ParentComp from './components/learnMemoization/ParentComp';
@@ -63,7 +64,9 @@ function App() {
       {/* <MainContext /> */}
       {/* <ParentForwardRef/> */}
 
-      <ParentCategory name="Yadwinder Singh"/>
+      {/* <ParentCategory name="Yadwinder Singh"/> */}
+
+      {/* <RefTextInputFunc /> */}
 
 
 
@@ -72,6 +75,8 @@ function App() {
 
 
        {/* <ParentHoc /> */}
+
+       <LearnTransitionHook/>
 
     </div>
   );
